@@ -8,7 +8,7 @@ const locationContainer = document.querySelector('.main__profile-location');
 //Fetch bakery data using the async and await method
 //fetchBakeries function accepts a parameter
 const fetchBakeries = async(game) => {
-  const api_call = await fetch(`https://nintendo-api-project.herokuapp.com/nintendo${game}`);
+  const api_call = await fetch(`https://nintendo-api-project.herokuapp.com/nintendo/${game}`);
   const data = await api_call.json();
   return { data }
 };
@@ -22,9 +22,8 @@ const fetchBakeries = async(game) => {
 const showData = () => {
   fetchBakeries(inputValue.value).then((res) => {
     console.log(res);
-    nameContainer.innerHTML = `Name: <span class="main__profile-value">${res.data.consoleID}</span>`;
-    websiteContainer.innerHTML = `Website: <span class="main__profile-value">${res.data.name}</span>`;
-    locationContainer.innerHTML = `Location: <span class="main__profile-value">${res.data.released}</span>`;
+    websiteContainer.innerHTML = `Console Name: <span class="main__profile-value">${res.data.name}</span>`;
+    locationContainer.innerHTML = `Initial Release Date: <span class="main__profile-value">${res.data.released}</span>`;
   })
 }
 

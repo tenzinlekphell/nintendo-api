@@ -1,33 +1,33 @@
 {
     "nintendo": [
         {
-            "id": 0,
-            "name": "GameBoyColor",
+            "id": "GameBoyColor",
+            "type": "handheld",
             "released": "Oct 21, 1998"
         },
         {
-            "id": 1,
-            "name": "GameBoyAdvance",
+            "id": "GameBoyAdvance",
+            "type": "handheld",
             "released": "June 11, 2001"
         },
         {
-            "id": 2,
-            "name": "GameBoyAdvanceSP",
+            "id": "GameBoyAdvanceSP",
+            "type": "handheld",
             "released": "Feb 14, 2003"
         },
         {
-            "id": 3,
-            "name": "NintendoDS",
+            "id": "NintendoDS",
+            "type": "handheld",
             "released": "Nov 21, 2004"
         },
         {
-            "id": 4,
-            "name": "Nintendo3DS",
+            "id": "Nintendo3DS",
+            "type": "handheld",
             "released": "Feb 26, 2011"
         },
         {
-            "id": 5,
-            "name": "NintendoSwitchLite",
+            "id": "NintendoSwitchLite",
+            "type": "handheld",
             "released": "Sept 20, 2019"
         }
         
