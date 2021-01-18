@@ -1,0 +1,35 @@
+{
+    "nintendo": [
+        {
+            "consoleID": 0,
+            "name": "Game Boy Color",
+            "released": "Oct 21, 1998"
+        },
+        {
+            "consoleID": 1,
+            "name": "Game Boy Advance",
+            "released": "June 11, 2001"
+        },
+        {
+            "consoleID": 2,
+            "name": "Game Boy Advance SP",
+            "released": "Feb 14, 2003"
+        },
+        {
+            "consoleID": 3,
+            "name": "Nintendo DS",
+            "released": "Nov 21, 2004"
+        },
+        {
+            "consoleID": 4,
+            "name": "Nintendo 3DS",
+            "released": "Feb 26, 2011"
+        },
+        {
+            "consoleID": 5,
+            "name": "Nintendo Switch Lite",
+            "released": "Sept 20, 2019"
+        }
+        
+    ]
+}
