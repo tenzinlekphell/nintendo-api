@@ -1,33 +1,33 @@
 {
     "nintendo": [
         {
-            "consoleID": 0,
-            "name": "Game Boy Color",
+            "id": 0,
+            "name": "GameBoyColor",
             "released": "Oct 21, 1998"
         },
         {
-            "consoleID": 1,
-            "name": "Game Boy Advance",
+            "id": 1,
+            "name": "GameBoyAdvance",
             "released": "June 11, 2001"
         },
         {
-            "consoleID": 2,
-            "name": "Game Boy Advance SP",
+            "id": 2,
+            "name": "GameBoyAdvanceSP",
             "released": "Feb 14, 2003"
         },
         {
-            "consoleID": 3,
-            "name": "Nintendo DS",
+            "id": 3,
+            "name": "NintendoDS",
             "released": "Nov 21, 2004"
         },
         {
-            "consoleID": 4,
-            "name": "Nintendo 3DS",
+            "id": 4,
+            "name": "Nintendo3DS",
             "released": "Feb 26, 2011"
         },
         {
-            "consoleID": 5,
-            "name": "Nintendo Switch Lite",
+            "id": 5,
+            "name": "NintendoSwitchLite",
             "released": "Sept 20, 2019"
         }
         
