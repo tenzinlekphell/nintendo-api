@@ -1,9 +1,9 @@
 //Select input value element
 //Select container elements (name, website, location)
 const inputValue = document.querySelector("#input-search");
-const nameContainer = document.querySelector('.main__profile-name');
-const websiteContainer = document.querySelector('.main__profile-website');
-const locationContainer = document.querySelector('.main__profile-location');
+const consoleName = document.querySelector('.console_name');
+const consoleType = document.querySelector('.console_type');
+const consoleDate = document.querySelector('.console_date');
 
 //Fetch bakery data using the async and await method
 //fetchBakeries function accepts a parameter
@@ -22,8 +22,9 @@ const fetchBakeries = async(game) => {
 const showData = () => {
   fetchBakeries(inputValue.value).then((res) => {
     console.log(res);
-    websiteContainer.innerHTML = `Console Name: <span class="main__profile-value">${res.data.name}</span>`;
-    locationContainer.innerHTML = `Initial Release Date: <span class="main__profile-value">${res.data.released}</span>`;
+    consoleName.innerHTML = `Console Name: <span class="console_name">${res.data.id}</span>`;
+    consoleType.innerHTML = `Console Type: <span class="console_type">${res.data.type}</span>`;
+    consoleDate.innerHTML = `Initial Release Date: <span class="console_date">${res.data.released}</span>`;
   })
 }
 
